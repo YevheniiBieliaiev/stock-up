@@ -1,0 +1,57 @@
+{
+  "name": "@stock-up/frontend",
+  "version": "0.0.1",
+  "description": "Pet-project 'Stock-Up'/frontend",
+  "private": true,
+  "engines": {
+    "npm": ">=8.0.0 <9.0.0",
+    "node": ">=8.10.0 <17.0.0"
+  },
+  "prettier": "@stock-up/prettier-config",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "build:analyze": "ANALYZE=true next build",
+    "start": "next",
+    "serve": "next start",
+    "prettier:check": "prettier --check \"*/**/*.{ts,tsx}\" --loglevel=warn",
+    "prettier:fix": "prettier --write \"*/**/*.{ts,tsx}\" --loglevel=warn",
+    "lint": "eslint . --ext .ts,.tsx",
+    "lint:fix": "eslint . --ext .ts,.tsx --fix",
+    "lint:next": "next lint"
+  },
+  "author": "Yevhenii Bieliaiev <yevheniibieliaiev@gmail.com>",
+  "license": "MIT",
+  "sideEffects": false,
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@hookform/resolvers": "^2.9.9",
+    "@reduxjs/toolkit": "^1.8.6",
+    "cookies-next": "^2.1.1",
+    "emotion-normalize": "^11.0.1",
+    "joi": "^17.6.3",
+    "next": "12.3.1",
+    "next-i18next": "^12.1.0",
+    "next-redux-wrapper": "^8.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.37.0",
+    "react-redux": "^8.0.4"
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "^12.3.1",
+    "@stock-up/prettier-config": "file:../prettier-config",
+    "@types/node": "18.8.4",
+    "@types/react": "18.0.21",
+    "@types/react-dom": "18.0.6",
+    "eslint": "8.25.0",
+    "eslint-config-next": "12.3.1",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "next-bundle-analyzer": "^0.6.4",
+    "prettier": "^2.7.1",
+    "typescript": "4.8.4"
+  }
+}

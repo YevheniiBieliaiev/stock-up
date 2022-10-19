@@ -1,0 +1,8 @@
+{
+  "name": "@stock-up/prettier-config",
+  "version": "0.0.1",
+  "description": "Pet-project 'Stock-Up'/prettier-config",
+  "main": "index.json",
+  "author": "Yevhenii Bieliaiev <yevheniibieliaiev@gmail.com>",
+  "license": "MIT"
+}
